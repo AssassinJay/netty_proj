@@ -30,5 +30,5 @@ public class PacketCodecHandler extends MessageToMessageCodec<ByteBuf, Packet> {
 
     // test reset1
 
-    // test reset2
+    // test reset2 123123
 }
