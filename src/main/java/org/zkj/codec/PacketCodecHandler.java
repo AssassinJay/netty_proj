@@ -27,4 +27,8 @@ public class PacketCodecHandler extends MessageToMessageCodec<ByteBuf, Packet> {
     protected void decode(ChannelHandlerContext channelHandlerContext, ByteBuf byteBuf, List<Object> list) throws Exception {
         list.add(PacketCodeC.INSTANCE.decode(byteBuf));
     }
+
+    // test reset1
+
+    // test reset2
 }
